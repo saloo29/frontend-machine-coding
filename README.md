@@ -3,6 +3,6 @@ A collection of my solutions to frontend machine-coding problems and React/TypeS
 This repo helps me improve speed, architecture, and problem-solving for frontend interviews.
 
 🎯 Goals
-Strengthen machine-coding skills
-Build clean, reusable components
-Practice patterns used in real interviews
+Strengthen machine-coding skills.
+Build clean, reusable components.
+Practice patterns used in real interviews.
