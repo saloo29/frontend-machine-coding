@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #e4e1e1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -66,8 +66,53 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.content{
+  margin: 0 30px;
+}
+
+.heading{
+  color: #213547;
+}
 
 .star-main{
   height: 40px;
   width: 40px;;
 }
+
+.accordion-wrapper{
+  max-width: 450px;
+  border-radius: 8px;
+  border: 2px solid #585252;
+  cursor: pointer;
+}
+
+.accordion-header{
+  height: 40px;
+  border-bottom: 1px solid #585252;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+}
+
+.accordion-title{
+  color: #213547;
+  padding-left: 8px;
+}
+
+.accordion-content{
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #585252;
+  color: #1a1a1a;
+}
+
+.angle-down-svg{
+  max-height: 50px;
+  max-width: 50px;
+}
+
